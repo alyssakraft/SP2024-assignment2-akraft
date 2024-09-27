@@ -1,0 +1,40 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+}
+
+header {
+    margin-bottom: 0px; /* Add space below the header */
+    font-size: 50px;
+    color: white;
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+#searchResults, #time {
+    display: none; /* Hide the divs initially */
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    max-width: 100%;
+    width: 500px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
